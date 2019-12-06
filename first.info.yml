@@ -1,0 +1,16 @@
+name: First
+description: My first custom theme
+base theme: classy
+type: theme
+package: custom
+core: 8.x
+ 
+
+libraries: 
+  - first/global-styling
+
+regions: 
+  header: Header
+  content: Content
+  sidebar: Sidebar
+  footer: Footer 
